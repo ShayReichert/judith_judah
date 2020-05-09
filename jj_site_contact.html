@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="jj_site_contact.css"/>
+    <title>Judith Judah : contact</title>
+</head>
+
+
+
+<body>
+    <div id="bloc_page">
+        
+
+        <!-- HEADER (commun aux autres pages) -->
+        <header>
+
+			<div id="ligne_haute_gauche">
+				<img src="img_site_jj/ligne_hgauche.svg" alt="Ligne haut gauche"/>
+			</div>
+
+			<div id="logo">
+				<img src="img_site_jj/logo_jj.svg" alt="Logo Judith Judah"/>			
+			</div>
+
+			<div id="ligne_haute_milieu">
+				<img src="img_site_jj/ligne_hmilieu.svg" alt="Ligne haut milieu"/>
+			</div>
+ 
+				<!-- Cmt faire pour que le coeur suive chaque élément de la liste au survol du curseur ? -->
+
+			<div id="logo_coeur01">
+				<img src="img_site_jj/coeur01.svg" alt="coeur 1 Judith Judah"/>
+			</div>	
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="index.html#ancre01" id="scroller">BIO</a></li>
+					<li><a href="jj_site_music.html">MUSIC</a></li>
+					<li><a href="index.html#ancre01">CONCERTS</a></li>
+					<li><a href="https://judithjudah.bandcamp.com/releases" target="blank">MERCH</a></li>
+					<li><a href="jj_site_presse.html">PRESSE</a></li>
+					<li id="contact_on">CONTACT</li>
+				</ul>
+			</nav>
+
+			<div id="ligne_haute_hdroite">
+				<img src="img_site_jj/ligne_hdroite.svg" alt="Ligne haut droite"/>
+			</div>	
+			
+        </header>
+
+
+        
+        <!-- CONTACT-->
+
+        <section>
+            <h1>Contactez-nous</h1>
+            <p id="para_contact">Si vous avez une question, une proposition de booking, de date, d'interview... <br>n'hésitez pas à nous contacter ! <br> 
+                Nous vous répondrons le plus rapidemment possible. </p>
+
+           
+
+                <article>
+                    <form method="POST" action="traitement.php">
+                        <p>
+                            <label for="nom_contact">Nom</label> : <input type="nom" name="Nom" id="nom_contact" placeholder="Ex : Bernadette CHIRAC" size="22" maxlength="100" required/>
+                            <label for="mail_contact">Mail</label> : <input type="email" name="Mail" id="mail_contact" placeholder="Ex : bernadette_du_95@wanadoo.fr" size="30" maxlength="100" required/>
+                            <br>
+                            <label for="motif_contact">Motif</label> :
+                            <select name="Motif" id="motif_contact">
+                                <option value="booking">Booking/Proposition de date</option>
+                                <option value="interview">Interview/Review/Presse</option>
+                                <option value="merch">Question sur le merch</option>
+                                <option value="autre">Autre</option>
+                            </select>    
+                            <br>
+                        
+                            <label for="message_contact">Votre message</label> : 
+                            <br>
+                                <textarea name="Votre Message" id="message_contact" placeholder="Dites-nous tout Bernadette ! " required></textarea> 
+                            <br>
+                        
+                            <input type="submit" value="Envoyer" />
+                 
+                        </p>
+                    </form>
+
+                </article>               
+        </section>
+
+
+
+        <!--FOOTER (commun aux autres pages) -->
+
+        <footer>
+			<div id="ligne_01_bas">
+				<img src="img_site_jj/ligne_1_bas.svg" alt="Ligne bas 1"/>
+			</div>
+
+			<div class="icones">
+				<a href="https://www.facebook.com/judithxjudah/" title="Suivre Judith Judah sur Facebook" target="_blank"><img src="img_site_jj/icone_fb.svg" alt="icone facebook Judith Judah"/></a>
+			</div>
+
+			<div id="ligne_02_bas">
+				<img src="img_site_jj/ligne_2_bas.svg" alt="Ligne bas 2"/>
+			</div>
+
+			<div class="icones">
+				<a href="https://www.instagram.com/judith.judah/" title="Suivre Judith Judah sur Instagram" target="_blank"><img src="img_site_jj/icone_insta.svg" alt="icone instagram Judith Judah"/></a>
+			</div>
+
+			<div id="ligne_03_bas">
+				<img src="img_site_jj/ligne_3_bas.svg" alt="ligne bas 3"/>
+			</div>
+
+			<div id="copyright">
+				<p>© 2020 Judith Judah // <a href="mailto:judith.judah666@gmail.com">Contact</a> // Création et webdesign du site par <a href="mailto:shay.reichert@outlook.fr">Shay Reichert</a></p>
+			</div>
+
+			<div id="ligne_04_bas">
+				<img src="img_site_jj/ligne_1_bas.svg" alt="ligne bas 4"/>
+			</div>
+
+			<div id="logo_coeur03">
+					<img src="img_site_jj/coeur03.svg" alt="coeur 3 Judith Judah"/>
+			</div>
+
+			<div id="ligne_05_bas">
+				<img src="img_site_jj/ligne_5_bas.svg" alt="ligne bas 5"/>
+			</div>
+
+		</footer>
+
+
+
+    </div>
+</body>
+</html>

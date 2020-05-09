@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1921" height="4.002" viewBox="0 0 1921 4.002">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Composant_6_1" data-name="Composant 6 – 1" transform="translate(0.5 0.5)">
+    <line id="ligne_1_bas" class="cls-1" x2="226"/>
+    <line id="ligne_2_bas" class="cls-1" x2="17" transform="translate(307 3)"/>
+    <line id="ligne_3_bas" class="cls-1" y1="1" x2="299" transform="translate(405 2)"/>
+    <line id="ligne_4_bas" class="cls-1" x2="344" y2="1" transform="translate(1251 2)"/>
+    <line id="ligne_5_bas" class="cls-1" x2="223" transform="translate(1697 3)"/>
+  </g>
+</svg>

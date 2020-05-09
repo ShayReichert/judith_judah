@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3" height="383" viewBox="0 0 3 383">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <line id="Ligne_concert" data-name="Ligne concert" class="cls-1" y2="380" transform="translate(1.5 1.5)"/>
+</svg>

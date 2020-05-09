@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="1" viewBox="0 0 91 1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <line id="Ligne_hdroite" data-name="Ligne hdroite" class="cls-1" x2="90" transform="translate(0.5 0.5)"/>
+</svg>
