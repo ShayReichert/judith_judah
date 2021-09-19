@@ -243,15 +243,24 @@ section {
   padding-bottom: 50px;
 }
 
+.container-video {
+  margin: 4px 4px 4px 80px;
+}
+
 .invisible {
   display: none;
 }
 
 #clip_body {
-  margin: 4px 4px 4px 80px;
   border: solid #6f6f6f 0.14em;
   border-radius: 7px;
   box-shadow: 3px 3px 3px #363d3f;
+}
+
+.legend-video {
+  margin-top: 4px;
+  font-size: 0.7em;
+  text-align: center;
 }
 
 iframe {
@@ -535,6 +544,7 @@ footer {
 
   footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 50px;
     margin-left: auto;
